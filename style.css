@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    background-color: #ff9900;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.conteudo{
+    height: 300px;
+    overflow-y: scroll;
+}
+.conteudo p{
+    line-height: 25px;
+}
+.fotos{
+    width: 800px;
+    overflow-x: scroll;
+    display: flex;
+    margin-top: 20px;
+}
+.fotos img{
+    margin-right: 10px;
+    width: 300px;
+}
+.footer{
+    background-color: #ff9900;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
